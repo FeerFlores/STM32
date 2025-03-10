@@ -1,0 +1,6 @@
+main
+	__FillZeros
+	ini_puertos
+		GPIO_Digital_Output
+			GPIO_Config
+				GPIO_Clk_Enable

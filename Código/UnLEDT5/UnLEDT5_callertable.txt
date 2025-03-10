@@ -1,0 +1,11 @@
+main
+	__CC2DW
+	__FillZeros
+	ini_puertos
+		GPIO_Digital_Output
+			GPIO_Config
+				GPIO_Clk_Enable
+	ini_timers
+		NVIC_IntEnable
+tiempo5
+	leds
