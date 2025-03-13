@@ -1,4 +1,4 @@
-OpenOCD Documentation
+OpenOCD Overview
 ======================
 
 Overview
@@ -23,6 +23,7 @@ CMSIS-DAP (Cortex Microcontroller Software Interface Standard - Debug Access Por
    .. image:: https://raw.githubusercontent.com/ARM-software/CMSIS-DAP/main/Documentation/Doxygen/src/images/CMSIS_DAP_INTERFACE.png
       :alt: CMSIS-DAP Debug Adapter
       :align: center
+
 SWDIO and SWCLK Signals
 -----------------------
 

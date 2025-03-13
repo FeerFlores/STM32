@@ -51,11 +51,10 @@ master_doc = 'index'
 numfig = True
 
 html_theme = 'sphinx_book_theme'
-html_logo = "_static/logo.png"
-html_icon = "_static/icon.png"
+html_logo = "_static/logo.svg"
 
 html_static_path = ['_static']
-latex_logo = "_static/logo.png"
+latex_logo = "_static/logo.svg"
 html_css_files = [
     'custom.css',
 ]
