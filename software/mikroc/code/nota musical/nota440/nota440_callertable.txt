@@ -1,0 +1,11 @@
+main
+	__FillZeros
+	ini_puertos
+		GPIO_Config
+			GPIO_Clk_Enable
+		GPIO_Digital_Output
+			GPIO_Config
+	ini_timers
+		NVIC_IntEnable
+tiempo5
+	boton

@@ -1,0 +1,11 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F407VG -BIN -LHF -C -DL -SSA -O11111114 -fo168 -N"C:\Trabajos ARM\6EM26\Sw_LED\Sw_LED.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M4\" -SP"C:\Trabajos ARM\6EM26\Sw_LED\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M4\" "Sw_LED.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_4XX.emcl" "__Lib_GPIO_32F4xx_Defs.emcl" "__Lib_GPIO_32F4xx.emcl"	 
+diagnostics: 0	122	Compilation Started	Sw_LED.c
+diagnostics: 26	123	Compiled Successfully	Sw_LED.c
+diagnostics: 0	127	All files Compiled in 63 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 8   Dynamic RAM (bytes): 131061	Static RAM (bytes): 8   Dynamic RAM (bytes): 131061
+hint: 0	1144	Used ROM (bytes): 2420 (0%)  Free ROM (bytes): 1046156 (100%)	Used ROM (bytes): 2420 (0%)  Free ROM (bytes): 1046156 (100%)
+diagnostics: 0	125	Project Linked Successfully	Sw_LED.mcpar
+diagnostics: 0	128	Linked in 281 ms	 
+diagnostics: 0	129	Project 'Sw_LED.mcpar' completed: 500 ms	 
+diagnostics: 0	103	Finished successfully: 02 sep. 2024, 08:02:09	Sw_LED.mcpar
