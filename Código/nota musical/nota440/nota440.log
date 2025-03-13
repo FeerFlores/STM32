@@ -1,8 +1,0 @@
-0	1	mikroCARM.exe -MSF -DBG -pSTM32F411CE -BIN -LHF -C -DL -SSA -O11111114 -fo100 -N"C:\Trabajos ARM\6EM26\nota440\nota440.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M4\" -SP"C:\Trabajos ARM\6EM26\nota440\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M4\" "nota440.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_4XX.emcl" "__Lib_GPIO_32F411x_Defs.emcl" "__Lib_GPIO_32F4x1.emcl"	 
-diagnostics: 0	122	Compilation Started	nota440.c
-diagnostics: 74	123	Compiled Successfully	nota440.c
-diagnostics: 0	127	All files Compiled in 63 ms	 
-diagnostics: 0	125	Project Linked Successfully	nota440.mcpar
-diagnostics: 0	128	Linked in 109 ms	 
-diagnostics: 0	129	Project 'nota440.mcpar' completed: 265 ms	 
-diagnostics: 0	103	Finished successfully: 20 sep. 2024, 08:30:09	nota440.mcpar

@@ -1,5 +1,0 @@
-main
-	__FillZeros
-	ini_uarts
-		NVIC_IntEnable
-recibe8

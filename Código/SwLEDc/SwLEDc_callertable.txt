@@ -1,4 +1,0 @@
-main
-	__FillZeros
-	ini_puertos
-	boton

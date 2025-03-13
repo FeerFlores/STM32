@@ -1,5 +1,0 @@
-main
-	__FillZeros
-	GPIO_Digital_Output
-		GPIO_Config
-			GPIO_Clk_Enable
