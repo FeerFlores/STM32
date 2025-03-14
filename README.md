@@ -1,5 +1,6 @@
-# STM32
-### Programación de STM32 con mikroC for ARM
+# Programación de STM32 con mikroC for ARM
+
+<a href='https://postimg.cc/PPVcnGBr' target='_blank'><img src='https://i.postimg.cc/PPVcnGBr/chatbot.gif' width="110px" height="110px" align = "right" border='0' alt='chatbot'/></a>
 
 Recuerda que una de las opciones para programar un microcontrolador STM32 con el software MikroC for ARM, necesita un ST-LINK V2 MCU APM32 por las siguientes razones:
 
@@ -25,4 +26,5 @@ Compatibilidad con software como STM32CubeProgrammer, MikroC, Keil y OpenOCD.
 Interfaz con el software MikroC for ARM, que usa ST-Link para cargar el firmware automáticamente después de la compilación.
 
 <a href='https://postimg.cc/dkZmzpPp' target='_blank'><img src='https://i.postimg.cc/nz0RQfdF/stm.png' align = "center" border='0' alt='stm'/></a>
+
 <font color="gray"><i> Figura 2. STM32F411CE  </i></font>
