@@ -2,7 +2,8 @@
 
 <a href='https://postimg.cc/PPVcnGBr' target='_blank'><img src='https://i.postimg.cc/PPVcnGBr/chatbot.gif' width="110px" height="110px" align = "right" border='0' alt='chatbot'/></a>
 
-Recuerda que una de las opciones para programar un microcontrolador STM32 con el software MikroC for ARM, necesita un ST-LINK V2 MCU APM32 por las siguientes razones:
+<p> Recuerda que una de las opciones para programar un microcontrolador STM32 con el software MikroC for ARM, necesita un ST-LINK V2 MCU APM32 por las siguientes razones: </p>
+<p></p>
 
 ## 1. ST-Link es el programador y depurador oficial de STMicroelectronics
 
