@@ -1,6 +1,4 @@
-# Programación de STM32 con mikroC for ARM
-
-<a href='https://postimg.cc/PPVcnGBr' target='_blank'><img src='https://i.postimg.cc/PPVcnGBr/chatbot.gif' width="110px" height="110px" align = "right" border='0' alt='chatbot'/></a>
+# Programación de STM32 con mikroC for ARM <a href='https://postimg.cc/PPVcnGBr' target='_blank'><img src='https://i.postimg.cc/PPVcnGBr/chatbot.gif' width="110px" height="110px" align = "center" border='0' alt='chatbot'/></a>
 
 <p> Recuerda que una de las opciones para programar un microcontrolador STM32 con el software MikroC for ARM, necesita un ST-LINK V2 MCU APM32. </p>
 <p> A continuación se explican las razones para usar un ST-LINK y cómo usar la interfaz SWD del STM32 </p>
