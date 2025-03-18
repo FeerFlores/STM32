@@ -1,0 +1,1535 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-memset.o)
+                              obj/main.o (memset)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-init.o)
+                              obj/startup_stm32f103xb.o (__libc_init_array)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 obj/main.o
+ .data          0x00000000        0x0 obj/main.o
+ .bss           0x00000000        0x0 obj/main.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_msp.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_msp.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_msp.o
+ .text.HAL_UART_MspInit
+                0x00000000        0x2 obj/stm32f1xx_hal_msp.o
+ .text          0x00000000        0x0 obj/stm32f1xx_it.o
+ .data          0x00000000        0x0 obj/stm32f1xx_it.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_it.o
+ .text          0x00000000        0x0 obj/system_stm32f1xx.o
+ .data          0x00000000        0x0 obj/system_stm32f1xx.o
+ .bss           0x00000000        0x0 obj/system_stm32f1xx.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0x54 obj/system_stm32f1xx.o
+ .rodata.APBPrescTable
+                0x00000000        0x8 obj/system_stm32f1xx.o
+ .text          0x00000000       0x14 obj/startup_stm32f103xb.o
+ .data          0x00000000        0x0 obj/startup_stm32f103xb.o
+ .bss           0x00000000        0x0 obj/startup_stm32f103xb.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_adc.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_adc.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_adc.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_adc.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_adc.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_adc_ex.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_adc_ex.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_adc_ex.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_adc_ex.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_adc_ex.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal.o
+ .text.HAL_MspInit
+                0x00000000        0x2 obj/stm32f1xx_hal.o
+ .text.HAL_MspDeInit
+                0x00000000        0x2 obj/stm32f1xx_hal.o
+ .text.HAL_DeInit
+                0x00000000       0x20 obj/stm32f1xx_hal.o
+ .text.HAL_GetTickPrio
+                0x00000000        0xc obj/stm32f1xx_hal.o
+ .text.HAL_SetTickFreq
+                0x00000000       0x28 obj/stm32f1xx_hal.o
+ .text.HAL_GetTickFreq
+                0x00000000        0xc obj/stm32f1xx_hal.o
+ .text.HAL_SuspendTick
+                0x00000000        0xe obj/stm32f1xx_hal.o
+ .text.HAL_ResumeTick
+                0x00000000        0xe obj/stm32f1xx_hal.o
+ .text.HAL_GetHalVersion
+                0x00000000        0x8 obj/stm32f1xx_hal.o
+ .text.HAL_GetREVID
+                0x00000000        0xc obj/stm32f1xx_hal.o
+ .text.HAL_GetDEVID
+                0x00000000       0x10 obj/stm32f1xx_hal.o
+ .text.HAL_GetUIDw0
+                0x00000000        0xc obj/stm32f1xx_hal.o
+ .text.HAL_GetUIDw1
+                0x00000000        0xc obj/stm32f1xx_hal.o
+ .text.HAL_GetUIDw2
+                0x00000000        0xc obj/stm32f1xx_hal.o
+ .text.HAL_DBGMCU_EnableDBGSleepMode
+                0x00000000       0x10 obj/stm32f1xx_hal.o
+ .text.HAL_DBGMCU_DisableDBGSleepMode
+                0x00000000       0x10 obj/stm32f1xx_hal.o
+ .text.HAL_DBGMCU_EnableDBGStopMode
+                0x00000000       0x10 obj/stm32f1xx_hal.o
+ .text.HAL_DBGMCU_DisableDBGStopMode
+                0x00000000       0x10 obj/stm32f1xx_hal.o
+ .text.HAL_DBGMCU_EnableDBGStandbyMode
+                0x00000000       0x10 obj/stm32f1xx_hal.o
+ .text.HAL_DBGMCU_DisableDBGStandbyMode
+                0x00000000       0x10 obj/stm32f1xx_hal.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_can.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_can.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_can.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_can.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_can.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_cec.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_cec.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_cec.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_cec.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_cec.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_cortex.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_cortex.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_cortex.o
+ .text.HAL_NVIC_EnableIRQ
+                0x00000000       0x1c obj/stm32f1xx_hal_cortex.o
+ .text.HAL_NVIC_DisableIRQ
+                0x00000000       0x24 obj/stm32f1xx_hal_cortex.o
+ .text.HAL_NVIC_SystemReset
+                0x00000000       0x24 obj/stm32f1xx_hal_cortex.o
+ .text.HAL_NVIC_GetPriorityGrouping
+                0x00000000       0x10 obj/stm32f1xx_hal_cortex.o
+ .text.HAL_NVIC_GetPriority
+                0x00000000       0x5c obj/stm32f1xx_hal_cortex.o
+ .text.HAL_NVIC_SetPendingIRQ
+                0x00000000       0x1c obj/stm32f1xx_hal_cortex.o
+ .text.HAL_NVIC_GetPendingIRQ
+                0x00000000       0x24 obj/stm32f1xx_hal_cortex.o
+ .text.HAL_NVIC_ClearPendingIRQ
+                0x00000000       0x1c obj/stm32f1xx_hal_cortex.o
+ .text.HAL_NVIC_GetActive
+                0x00000000       0x24 obj/stm32f1xx_hal_cortex.o
+ .text.HAL_SYSTICK_CLKSourceConfig
+                0x00000000       0x16 obj/stm32f1xx_hal_cortex.o
+ .text.HAL_SYSTICK_Callback
+                0x00000000        0x2 obj/stm32f1xx_hal_cortex.o
+ .text.HAL_SYSTICK_IRQHandler
+                0x00000000        0x8 obj/stm32f1xx_hal_cortex.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_crc.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_crc.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_crc.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_crc.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_crc.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_dac.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_dac.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_dac.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_dac.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_dac.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_dac_ex.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_dac_ex.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_dac_ex.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_dac_ex.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_dac_ex.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_dma.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_dma.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_dma.o
+ .text.HAL_DMA_Init
+                0x00000000       0x60 obj/stm32f1xx_hal_dma.o
+ .text.HAL_DMA_DeInit
+                0x00000000       0x54 obj/stm32f1xx_hal_dma.o
+ .text.HAL_DMA_Start
+                0x00000000       0x5c obj/stm32f1xx_hal_dma.o
+ .text.HAL_DMA_Start_IT
+                0x00000000       0x78 obj/stm32f1xx_hal_dma.o
+ .text.HAL_DMA_Abort
+                0x00000000       0x3e obj/stm32f1xx_hal_dma.o
+ .text.HAL_DMA_Abort_IT
+                0x00000000       0x8c obj/stm32f1xx_hal_dma.o
+ .text.HAL_DMA_PollForTransfer
+                0x00000000      0x234 obj/stm32f1xx_hal_dma.o
+ .text.HAL_DMA_IRQHandler
+                0x00000000      0x128 obj/stm32f1xx_hal_dma.o
+ .text.HAL_DMA_RegisterCallback
+                0x00000000       0x42 obj/stm32f1xx_hal_dma.o
+ .text.HAL_DMA_UnRegisterCallback
+                0x00000000       0x52 obj/stm32f1xx_hal_dma.o
+ .text.HAL_DMA_GetState
+                0x00000000        0x6 obj/stm32f1xx_hal_dma.o
+ .text.HAL_DMA_GetError
+                0x00000000        0x4 obj/stm32f1xx_hal_dma.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_dma.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_dma.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_eth.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_eth.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_eth.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_eth.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_eth.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_exti.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_exti.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_exti.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_exti.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_exti.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_flash.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_flash.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_flash.o
+ .text.FLASH_SetErrorCode
+                0x00000000       0x50 obj/stm32f1xx_hal_flash.o
+ .text.HAL_FLASH_Program_IT
+                0x00000000       0x50 obj/stm32f1xx_hal_flash.o
+ .text.HAL_FLASH_EndOfOperationCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_flash.o
+ .text.HAL_FLASH_OperationErrorCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_flash.o
+ .text.HAL_FLASH_IRQHandler
+                0x00000000      0x110 obj/stm32f1xx_hal_flash.o
+ .text.HAL_FLASH_Unlock
+                0x00000000       0x24 obj/stm32f1xx_hal_flash.o
+ .text.HAL_FLASH_Lock
+                0x00000000       0x14 obj/stm32f1xx_hal_flash.o
+ .text.HAL_FLASH_OB_Unlock
+                0x00000000       0x24 obj/stm32f1xx_hal_flash.o
+ .text.HAL_FLASH_OB_Lock
+                0x00000000       0x14 obj/stm32f1xx_hal_flash.o
+ .text.HAL_FLASH_OB_Launch
+                0x00000000        0x4 obj/stm32f1xx_hal_flash.o
+ .text.HAL_FLASH_GetError
+                0x00000000        0xc obj/stm32f1xx_hal_flash.o
+ .text.FLASH_WaitForLastOperation
+                0x00000000       0x54 obj/stm32f1xx_hal_flash.o
+ .text.HAL_FLASH_Program
+                0x00000000       0xa4 obj/stm32f1xx_hal_flash.o
+ .bss.pFlash    0x00000000       0x20 obj/stm32f1xx_hal_flash.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_flash.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_flash.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_flash_ex.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_flash_ex.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_flash_ex.o
+ .text.FLASH_OB_RDP_LevelConfig
+                0x00000000       0x60 obj/stm32f1xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_OBErase
+                0x00000000       0x54 obj/stm32f1xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_OBProgram
+                0x00000000      0x1ec obj/stm32f1xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_OBGetConfig
+                0x00000000       0x28 obj/stm32f1xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_OBGetUserData
+                0x00000000       0x1c obj/stm32f1xx_hal_flash_ex.o
+ .text.FLASH_PageErase
+                0x00000000       0x24 obj/stm32f1xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_Erase
+                0x00000000       0xa8 obj/stm32f1xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_Erase_IT
+                0x00000000       0x54 obj/stm32f1xx_hal_flash_ex.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_flash_ex.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_flash_ex.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_gpio.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_gpio.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_gpio.o
+ .text.HAL_GPIO_DeInit
+                0x00000000       0xdc obj/stm32f1xx_hal_gpio.o
+ .text.HAL_GPIO_ReadPin
+                0x00000000        0xc obj/stm32f1xx_hal_gpio.o
+ .text.HAL_GPIO_WritePin
+                0x00000000        0xa obj/stm32f1xx_hal_gpio.o
+ .text.HAL_GPIO_LockPin
+                0x00000000       0x2a obj/stm32f1xx_hal_gpio.o
+ .text.HAL_GPIO_EXTI_Callback
+                0x00000000        0x2 obj/stm32f1xx_hal_gpio.o
+ .text.HAL_GPIO_EXTI_IRQHandler
+                0x00000000       0x18 obj/stm32f1xx_hal_gpio.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_gpio_ex.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_gpio_ex.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_gpio_ex.o
+ .text.HAL_GPIOEx_ConfigEventout
+                0x00000000       0x14 obj/stm32f1xx_hal_gpio_ex.o
+ .text.HAL_GPIOEx_EnableEventout
+                0x00000000       0x10 obj/stm32f1xx_hal_gpio_ex.o
+ .text.HAL_GPIOEx_DisableEventout
+                0x00000000       0x10 obj/stm32f1xx_hal_gpio_ex.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_gpio_ex.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_gpio_ex.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_hcd.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_hcd.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_hcd.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_hcd.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_hcd.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_i2c.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_i2c.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_i2c.o
+ .text.I2C_IsAcknowledgeFailed
+                0x00000000       0x32 obj/stm32f1xx_hal_i2c.o
+ .text.I2C_WaitOnFlagUntilTimeout
+                0x00000000       0x80 obj/stm32f1xx_hal_i2c.o
+ .text.I2C_WaitOnMasterAddressFlagUntilTimeout
+                0x00000000       0x84 obj/stm32f1xx_hal_i2c.o
+ .text.I2C_WaitOnTXEFlagUntilTimeout
+                0x00000000       0x54 obj/stm32f1xx_hal_i2c.o
+ .text.I2C_RequestMemoryWrite
+                0x00000000       0xb4 obj/stm32f1xx_hal_i2c.o
+ .text.I2C_RequestMemoryRead
+                0x00000000      0x108 obj/stm32f1xx_hal_i2c.o
+ .text.I2C_WaitOnBTFFlagUntilTimeout
+                0x00000000       0x54 obj/stm32f1xx_hal_i2c.o
+ .text.I2C_WaitOnRXNEFlagUntilTimeout
+                0x00000000       0x66 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_MspInit
+                0x00000000        0x2 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Init
+                0x00000000      0x150 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_MspDeInit
+                0x00000000        0x2 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_DeInit
+                0x00000000       0x32 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Master_Transmit
+                0x00000000      0x1b4 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Master_Receive
+                0x00000000      0x358 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Slave_Transmit
+                0x00000000      0x15c obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Slave_Receive
+                0x00000000      0x184 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Master_Transmit_IT
+                0x00000000       0xac obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Master_Receive_IT
+                0x00000000       0xb4 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Slave_Transmit_IT
+                0x00000000       0x70 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Slave_Receive_IT
+                0x00000000       0x70 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Master_Transmit_DMA
+                0x00000000      0x13c obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Master_Receive_DMA
+                0x00000000      0x138 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Slave_Transmit_DMA
+                0x00000000       0xd8 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Slave_Receive_DMA
+                0x00000000       0xd8 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Mem_Write
+                0x00000000      0x120 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Mem_Read
+                0x00000000      0x288 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Mem_Write_IT
+                0x00000000       0xb8 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Mem_Read_IT
+                0x00000000       0xc4 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Mem_Write_DMA
+                0x00000000      0x18c obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Mem_Read_DMA
+                0x00000000      0x1d4 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_IsDeviceReady
+                0x00000000      0x168 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Master_Seq_Transmit_IT
+                0x00000000       0xd0 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Master_Seq_Transmit_DMA
+                0x00000000      0x18c obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Master_Seq_Receive_IT
+                0x00000000      0x10c obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Master_Seq_Receive_DMA
+                0x00000000      0x1e0 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Slave_Seq_Transmit_IT
+                0x00000000       0x76 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Slave_Seq_Transmit_DMA
+                0x00000000      0x160 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Slave_Seq_Receive_IT
+                0x00000000       0x76 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Slave_Seq_Receive_DMA
+                0x00000000      0x15c obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_EnableListen_IT
+                0x00000000       0x36 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_DisableListen_IT
+                0x00000000       0x3e obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_MasterTxCpltCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_MasterRxCpltCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_SlaveTxCpltCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_SlaveRxCpltCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_AddrCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_ListenCpltCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_MemTxCpltCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_i2c.o
+ .text.I2C_MemoryTransmit_TXE_BTF
+                0x00000000       0xb0 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_MemRxCpltCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_ErrorCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_i2c.o
+ .text.I2C_DMAError
+                0x00000000       0x3a obj/stm32f1xx_hal_i2c.o
+ .text.I2C_DMAXferCplt
+                0x00000000      0x114 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_AbortCpltCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_i2c.o
+ .text.I2C_DMAAbort
+                0x00000000       0xc0 obj/stm32f1xx_hal_i2c.o
+ .text.I2C_ITError
+                0x00000000      0x150 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_Master_Abort_IT
+                0x00000000       0x58 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_EV_IRQHandler
+                0x00000000      0x8b0 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_ER_IRQHandler
+                0x00000000      0x140 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_GetState
+                0x00000000        0x6 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_GetMode
+                0x00000000        0x6 obj/stm32f1xx_hal_i2c.o
+ .text.HAL_I2C_GetError
+                0x00000000        0x4 obj/stm32f1xx_hal_i2c.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_i2c.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_i2c.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_i2s.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_i2s.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_i2s.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_i2s.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_i2s.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_irda.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_irda.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_irda.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_irda.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_irda.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_iwdg.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_iwdg.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_iwdg.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_iwdg.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_iwdg.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_mmc.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_mmc.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_mmc.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_mmc.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_mmc.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_nand.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_nand.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_nand.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_nand.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_nand.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_nor.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_nor.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_nor.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_nor.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_nor.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_pccard.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_pccard.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_pccard.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_pccard.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_pccard.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_pcd.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_pcd.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_pcd.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_pcd.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_pcd.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_pcd_ex.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_pcd_ex.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_pcd_ex.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_pcd_ex.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_pcd_ex.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_pwr.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_pwr.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_pwr.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_pwr.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_pwr.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_rcc.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_rcc.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_rcc.o
+ .text.HAL_RCC_DeInit
+                0x00000000       0xd8 obj/stm32f1xx_hal_rcc.o
+ .text.HAL_RCC_MCOConfig
+                0x00000000       0x4c obj/stm32f1xx_hal_rcc.o
+ .text.HAL_RCC_EnableCSS
+                0x00000000        0xc obj/stm32f1xx_hal_rcc.o
+ .text.HAL_RCC_DisableCSS
+                0x00000000        0xc obj/stm32f1xx_hal_rcc.o
+ .text.HAL_RCC_GetHCLKFreq
+                0x00000000        0xc obj/stm32f1xx_hal_rcc.o
+ .text.HAL_RCC_GetPCLK1Freq
+                0x00000000       0x20 obj/stm32f1xx_hal_rcc.o
+ .text.HAL_RCC_GetPCLK2Freq
+                0x00000000       0x20 obj/stm32f1xx_hal_rcc.o
+ .text.HAL_RCC_GetOscConfig
+                0x00000000       0x6c obj/stm32f1xx_hal_rcc.o
+ .text.HAL_RCC_GetClockConfig
+                0x00000000       0x3c obj/stm32f1xx_hal_rcc.o
+ .text.HAL_RCC_CSSCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_rcc.o
+ .text.HAL_RCC_NMI_IRQHandler
+                0x00000000       0x18 obj/stm32f1xx_hal_rcc.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_rcc_ex.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_rcc_ex.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_PeriphCLKConfig
+                0x00000000       0xf4 obj/stm32f1xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_GetPeriphCLKConfig
+                0x00000000       0x24 obj/stm32f1xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_GetPeriphCLKFreq
+                0x00000000       0xbc obj/stm32f1xx_hal_rcc_ex.o
+ .rodata.aPredivFactorTable.0
+                0x00000000        0x2 obj/stm32f1xx_hal_rcc_ex.o
+ .rodata.aPLLMULFactorTable.1
+                0x00000000       0x10 obj/stm32f1xx_hal_rcc_ex.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_rcc_ex.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_rcc_ex.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_rtc.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_rtc.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_rtc.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_rtc.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_rtc.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_rtc_ex.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_rtc_ex.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_rtc_ex.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_rtc_ex.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_rtc_ex.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_sd.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_sd.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_sd.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_sd.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_sd.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_smartcard.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_smartcard.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_smartcard.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_smartcard.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_smartcard.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_spi.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_spi.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_spi.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_spi.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_spi.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_sram.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_sram.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_sram.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_sram.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_sram.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_tim.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_tim.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_tim.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_tim.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_tim.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_tim_ex.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_tim_ex.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_tim_ex.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_tim_ex.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_tim_ex.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_uart.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_uart.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_uart.o
+ .text.UART_EndRxTransfer
+                0x00000000       0x5c obj/stm32f1xx_hal_uart.o
+ .text.UART_SetConfig
+                0x00000000       0x74 obj/stm32f1xx_hal_uart.o
+ .text.UART_WaitOnFlagUntilTimeout.constprop.0
+                0x00000000       0x64 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_MspInit
+                0x00000000        0x2 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_Init
+                0x00000000       0x5e obj/stm32f1xx_hal_uart.o
+ .text.HAL_HalfDuplex_Init
+                0x00000000       0x66 obj/stm32f1xx_hal_uart.o
+ .text.HAL_LIN_Init
+                0x00000000       0x78 obj/stm32f1xx_hal_uart.o
+ .text.HAL_MultiProcessor_Init
+                0x00000000       0x80 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_MspDeInit
+                0x00000000        0x2 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_DeInit
+                0x00000000       0x34 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_Transmit
+                0x00000000       0x9c obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_Receive
+                0x00000000       0xae obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_Transmit_IT
+                0x00000000       0x32 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_Transmit_DMA
+                0x00000000       0x74 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_DMAPause
+                0x00000000       0x82 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_DMAResume
+                0x00000000       0x8c obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_DMAStop
+                0x00000000       0x8c obj/stm32f1xx_hal_uart.o
+ .text.HAL_UARTEx_ReceiveToIdle
+                0x00000000       0xfc obj/stm32f1xx_hal_uart.o
+ .text.HAL_UARTEx_GetRxEventType
+                0x00000000        0x4 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_Abort
+                0x00000000       0xdc obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_AbortTransmit
+                0x00000000       0x66 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_AbortReceive
+                0x00000000       0x9e obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_TxCpltCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_uart.o
+ .text.UART_DMATransmitCplt
+                0x00000000       0x4c obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_TxHalfCpltCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_uart.o
+ .text.UART_DMATxHalfCplt
+                0x00000000        0xa obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_RxCpltCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_RxHalfCpltCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_ErrorCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_uart.o
+ .text.UART_DMAError
+                0x00000000       0x5a obj/stm32f1xx_hal_uart.o
+ .text.UART_DMAAbortOnError
+                0x00000000        0xe obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_AbortCpltCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_Abort_IT
+                0x00000000      0x104 obj/stm32f1xx_hal_uart.o
+ .text.UART_DMARxAbortCallback
+                0x00000000       0x2a obj/stm32f1xx_hal_uart.o
+ .text.UART_DMATxAbortCallback
+                0x00000000       0x2a obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_AbortTransmitCpltCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_AbortTransmit_IT
+                0x00000000       0x70 obj/stm32f1xx_hal_uart.o
+ .text.UART_DMATxOnlyAbortCallback
+                0x00000000       0x14 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_AbortReceiveCpltCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_AbortReceive_IT
+                0x00000000       0xb0 obj/stm32f1xx_hal_uart.o
+ .text.UART_DMARxOnlyAbortCallback
+                0x00000000       0x16 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UARTEx_RxEventCallback
+                0x00000000        0x2 obj/stm32f1xx_hal_uart.o
+ .text.UART_DMARxHalfCplt
+                0x00000000       0x1e obj/stm32f1xx_hal_uart.o
+ .text.UART_DMAReceiveCplt
+                0x00000000       0x98 obj/stm32f1xx_hal_uart.o
+ .text.UART_Receive_IT.isra.0
+                0x00000000       0xb6 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_IRQHandler
+                0x00000000      0x29c obj/stm32f1xx_hal_uart.o
+ .text.HAL_LIN_SendBreak
+                0x00000000       0x3e obj/stm32f1xx_hal_uart.o
+ .text.HAL_MultiProcessor_EnterMuteMode
+                0x00000000       0x40 obj/stm32f1xx_hal_uart.o
+ .text.HAL_MultiProcessor_ExitMuteMode
+                0x00000000       0x40 obj/stm32f1xx_hal_uart.o
+ .text.HAL_HalfDuplex_EnableTransmitter
+                0x00000000       0x30 obj/stm32f1xx_hal_uart.o
+ .text.HAL_HalfDuplex_EnableReceiver
+                0x00000000       0x30 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_GetState
+                0x00000000        0xc obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_GetError
+                0x00000000        0x4 obj/stm32f1xx_hal_uart.o
+ .text.UART_Start_Receive_IT
+                0x00000000       0x32 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_Receive_IT
+                0x00000000       0x22 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UARTEx_ReceiveToIdle_IT
+                0x00000000       0x5a obj/stm32f1xx_hal_uart.o
+ .text.UART_Start_Receive_DMA
+                0x00000000       0x98 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UART_Receive_DMA
+                0x00000000       0x22 obj/stm32f1xx_hal_uart.o
+ .text.HAL_UARTEx_ReceiveToIdle_DMA
+                0x00000000       0x56 obj/stm32f1xx_hal_uart.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_uart.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_uart.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_usart.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_usart.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_usart.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_usart.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_usart.o
+ .text          0x00000000        0x0 obj/stm32f1xx_hal_wwdg.o
+ .data          0x00000000        0x0 obj/stm32f1xx_hal_wwdg.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_hal_wwdg.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_hal_wwdg.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_hal_wwdg.o
+ .text          0x00000000        0x0 obj/stm32f1xx_ll_adc.o
+ .data          0x00000000        0x0 obj/stm32f1xx_ll_adc.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_ll_adc.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_ll_adc.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_ll_adc.o
+ .text          0x00000000        0x0 obj/stm32f1xx_ll_crc.o
+ .data          0x00000000        0x0 obj/stm32f1xx_ll_crc.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_ll_crc.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_ll_crc.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_ll_crc.o
+ .text          0x00000000        0x0 obj/stm32f1xx_ll_dac.o
+ .data          0x00000000        0x0 obj/stm32f1xx_ll_dac.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_ll_dac.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_ll_dac.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_ll_dac.o
+ .text          0x00000000        0x0 obj/stm32f1xx_ll_dma.o
+ .data          0x00000000        0x0 obj/stm32f1xx_ll_dma.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_ll_dma.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_ll_dma.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_ll_dma.o
+ .text          0x00000000        0x0 obj/stm32f1xx_ll_exti.o
+ .data          0x00000000        0x0 obj/stm32f1xx_ll_exti.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_ll_exti.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_ll_exti.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_ll_exti.o
+ .text          0x00000000        0x0 obj/stm32f1xx_ll_fsmc.o
+ .data          0x00000000        0x0 obj/stm32f1xx_ll_fsmc.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_ll_fsmc.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_ll_fsmc.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_ll_fsmc.o
+ .text          0x00000000        0x0 obj/stm32f1xx_ll_gpio.o
+ .data          0x00000000        0x0 obj/stm32f1xx_ll_gpio.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_ll_gpio.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_ll_gpio.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_ll_gpio.o
+ .text          0x00000000        0x0 obj/stm32f1xx_ll_i2c.o
+ .data          0x00000000        0x0 obj/stm32f1xx_ll_i2c.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_ll_i2c.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_ll_i2c.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_ll_i2c.o
+ .text          0x00000000        0x0 obj/stm32f1xx_ll_pwr.o
+ .data          0x00000000        0x0 obj/stm32f1xx_ll_pwr.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_ll_pwr.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_ll_pwr.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_ll_pwr.o
+ .text          0x00000000        0x0 obj/stm32f1xx_ll_rcc.o
+ .data          0x00000000        0x0 obj/stm32f1xx_ll_rcc.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_ll_rcc.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_ll_rcc.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_ll_rcc.o
+ .text          0x00000000        0x0 obj/stm32f1xx_ll_rtc.o
+ .data          0x00000000        0x0 obj/stm32f1xx_ll_rtc.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_ll_rtc.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_ll_rtc.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_ll_rtc.o
+ .text          0x00000000        0x0 obj/stm32f1xx_ll_sdmmc.o
+ .data          0x00000000        0x0 obj/stm32f1xx_ll_sdmmc.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_ll_sdmmc.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_ll_sdmmc.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_ll_sdmmc.o
+ .text          0x00000000        0x0 obj/stm32f1xx_ll_spi.o
+ .data          0x00000000        0x0 obj/stm32f1xx_ll_spi.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_ll_spi.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_ll_spi.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_ll_spi.o
+ .text          0x00000000        0x0 obj/stm32f1xx_ll_tim.o
+ .data          0x00000000        0x0 obj/stm32f1xx_ll_tim.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_ll_tim.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_ll_tim.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_ll_tim.o
+ .text          0x00000000        0x0 obj/stm32f1xx_ll_usart.o
+ .data          0x00000000        0x0 obj/stm32f1xx_ll_usart.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_ll_usart.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_ll_usart.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_ll_usart.o
+ .text          0x00000000        0x0 obj/stm32f1xx_ll_usb.o
+ .data          0x00000000        0x0 obj/stm32f1xx_ll_usb.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_ll_usb.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_ll_usb.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_ll_usb.o
+ .text          0x00000000        0x0 obj/stm32f1xx_ll_utils.o
+ .data          0x00000000        0x0 obj/stm32f1xx_ll_utils.o
+ .bss           0x00000000        0x0 obj/stm32f1xx_ll_utils.o
+ .text.LL_Init1msTick
+                0x00000000       0x1a obj/stm32f1xx_ll_utils.o
+ .text.LL_mDelay
+                0x00000000       0x26 obj/stm32f1xx_ll_utils.o
+ .text.LL_SetSystemCoreClock
+                0x00000000        0xc obj/stm32f1xx_ll_utils.o
+ .text.LL_SetFlashLatency
+                0x00000000       0x50 obj/stm32f1xx_ll_utils.o
+ .text.UTILS_EnablePLLAndSwitchSystem
+                0x00000000       0xa8 obj/stm32f1xx_ll_utils.o
+ .text.LL_PLL_ConfigSystemClock_HSI
+                0x00000000       0x48 obj/stm32f1xx_ll_utils.o
+ .text.LL_PLL_ConfigSystemClock_HSE
+                0x00000000       0x68 obj/stm32f1xx_ll_utils.o
+ .comment       0x00000000       0x27 obj/stm32f1xx_ll_utils.o
+ .ARM.attributes
+                0x00000000       0x2d obj/stm32f1xx_ll_utils.o
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-memset.o)
+ .debug_info    0x00000000      0x135 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-memset.o)
+ .debug_abbrev  0x00000000       0xb7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-memset.o)
+ .debug_loclists
+                0x00000000      0x1d7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-memset.o)
+ .debug_aranges
+                0x00000000       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-memset.o)
+ .debug_line    0x00000000      0x1b1 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-memset.o)
+ .debug_str     0x00000000      0x1a0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-memset.o)
+ .comment       0x00000000       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-memset.o)
+ .debug_frame   0x00000000       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-memset.o)
+ .ARM.attributes
+                0x00000000       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-memset.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-init.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-init.o)
+ .debug_info    0x00000000      0x10b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-init.o)
+ .debug_abbrev  0x00000000       0xc9 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-init.o)
+ .debug_loclists
+                0x00000000       0x65 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-init.o)
+ .debug_aranges
+                0x00000000       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-init.o)
+ .debug_line    0x00000000      0x11e /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-init.o)
+ .debug_str     0x00000000      0x1ed /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-init.o)
+ .comment       0x00000000       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-init.o)
+ .debug_frame   0x00000000       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-init.o)
+ .ARM.attributes
+                0x00000000       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-init.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00020000         xr
+RAM              0x20000000         0x00005000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD obj/main.o
+LOAD obj/stm32f1xx_hal_msp.o
+LOAD obj/stm32f1xx_it.o
+LOAD obj/system_stm32f1xx.o
+LOAD obj/startup_stm32f103xb.o
+LOAD obj/stm32f1xx_hal_adc.o
+LOAD obj/stm32f1xx_hal_adc_ex.o
+LOAD obj/stm32f1xx_hal.o
+LOAD obj/stm32f1xx_hal_can.o
+LOAD obj/stm32f1xx_hal_cec.o
+LOAD obj/stm32f1xx_hal_cortex.o
+LOAD obj/stm32f1xx_hal_crc.o
+LOAD obj/stm32f1xx_hal_dac.o
+LOAD obj/stm32f1xx_hal_dac_ex.o
+LOAD obj/stm32f1xx_hal_dma.o
+LOAD obj/stm32f1xx_hal_eth.o
+LOAD obj/stm32f1xx_hal_exti.o
+LOAD obj/stm32f1xx_hal_flash.o
+LOAD obj/stm32f1xx_hal_flash_ex.o
+LOAD obj/stm32f1xx_hal_gpio.o
+LOAD obj/stm32f1xx_hal_gpio_ex.o
+LOAD obj/stm32f1xx_hal_hcd.o
+LOAD obj/stm32f1xx_hal_i2c.o
+LOAD obj/stm32f1xx_hal_i2s.o
+LOAD obj/stm32f1xx_hal_irda.o
+LOAD obj/stm32f1xx_hal_iwdg.o
+LOAD obj/stm32f1xx_hal_mmc.o
+LOAD obj/stm32f1xx_hal_nand.o
+LOAD obj/stm32f1xx_hal_nor.o
+LOAD obj/stm32f1xx_hal_pccard.o
+LOAD obj/stm32f1xx_hal_pcd.o
+LOAD obj/stm32f1xx_hal_pcd_ex.o
+LOAD obj/stm32f1xx_hal_pwr.o
+LOAD obj/stm32f1xx_hal_rcc.o
+LOAD obj/stm32f1xx_hal_rcc_ex.o
+LOAD obj/stm32f1xx_hal_rtc.o
+LOAD obj/stm32f1xx_hal_rtc_ex.o
+LOAD obj/stm32f1xx_hal_sd.o
+LOAD obj/stm32f1xx_hal_smartcard.o
+LOAD obj/stm32f1xx_hal_spi.o
+LOAD obj/stm32f1xx_hal_sram.o
+LOAD obj/stm32f1xx_hal_tim.o
+LOAD obj/stm32f1xx_hal_tim_ex.o
+LOAD obj/stm32f1xx_hal_uart.o
+LOAD obj/stm32f1xx_hal_usart.o
+LOAD obj/stm32f1xx_hal_wwdg.o
+LOAD obj/stm32f1xx_ll_adc.o
+LOAD obj/stm32f1xx_ll_crc.o
+LOAD obj/stm32f1xx_ll_dac.o
+LOAD obj/stm32f1xx_ll_dma.o
+LOAD obj/stm32f1xx_ll_exti.o
+LOAD obj/stm32f1xx_ll_fsmc.o
+LOAD obj/stm32f1xx_ll_gpio.o
+LOAD obj/stm32f1xx_ll_i2c.o
+LOAD obj/stm32f1xx_ll_pwr.o
+LOAD obj/stm32f1xx_ll_rcc.o
+LOAD obj/stm32f1xx_ll_rtc.o
+LOAD obj/stm32f1xx_ll_sdmmc.o
+LOAD obj/stm32f1xx_ll_spi.o
+LOAD obj/stm32f1xx_ll_tim.o
+LOAD obj/stm32f1xx_ll_usart.o
+LOAD obj/stm32f1xx_ll_usb.o
+LOAD obj/stm32f1xx_ll_utils.o
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/libgcc.a
+                0x20005000                        _estack = 0x20005000
+                0x00000200                        _Min_Heap_Size = 0x200
+                0x00000400                        _Min_Stack_Size = 0x400
+
+.isr_vector     0x08000000      0x10c
+                0x08000000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x10c obj/startup_stm32f103xb.o
+                0x08000000                g_pfnVectors
+                0x0800010c                        . = ALIGN (0x4)
+
+.text           0x0800010c      0xa28
+                0x0800010c                        . = ALIGN (0x4)
+ *(.text)
+ .text          0x0800010c       0xa0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-memset.o)
+                0x0800010c                memset
+ .text          0x080001ac       0x50 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-init.o)
+                0x080001ac                __libc_init_array
+ *(.text*)
+ .text._init    0x080001fc        0x2 obj/main.o
+                0x080001fc                _init
+ .text.SystemClock_Config
+                0x080001fe       0x56 obj/main.o
+                0x080001fe                SystemClock_Config
+ .text.startup.main
+                0x08000254       0x58 obj/main.o
+                0x08000254                main
+ .text.HAL_MspInit
+                0x080002ac        0x2 obj/stm32f1xx_hal_msp.o
+                0x080002ac                HAL_MspInit
+ .text.NMI_Handler
+                0x080002ae        0x2 obj/stm32f1xx_it.o
+                0x080002ae                NMI_Handler
+ .text.HardFault_Handler
+                0x080002b0        0x2 obj/stm32f1xx_it.o
+                0x080002b0                HardFault_Handler
+ .text.MemManage_Handler
+                0x080002b2        0x2 obj/stm32f1xx_it.o
+                0x080002b2                MemManage_Handler
+ .text.BusFault_Handler
+                0x080002b4        0x2 obj/stm32f1xx_it.o
+                0x080002b4                BusFault_Handler
+ .text.UsageFault_Handler
+                0x080002b6        0x2 obj/stm32f1xx_it.o
+                0x080002b6                UsageFault_Handler
+ .text.SVC_Handler
+                0x080002b8        0x2 obj/stm32f1xx_it.o
+                0x080002b8                SVC_Handler
+ .text.DebugMon_Handler
+                0x080002ba        0x2 obj/stm32f1xx_it.o
+                0x080002ba                DebugMon_Handler
+ .text.PendSV_Handler
+                0x080002bc        0x2 obj/stm32f1xx_it.o
+                0x080002bc                PendSV_Handler
+ .text.SysTick_Handler
+                0x080002be        0x4 obj/stm32f1xx_it.o
+                0x080002be                SysTick_Handler
+ *fill*         0x080002c2        0x2 
+ .text.SystemInit
+                0x080002c4       0x4c obj/system_stm32f1xx.o
+                0x080002c4                SystemInit
+ .text.Reset_Handler
+                0x08000310       0x48 obj/startup_stm32f103xb.o
+                0x08000310                Reset_Handler
+ .text.Default_Handler
+                0x08000358        0x2 obj/startup_stm32f103xb.o
+                0x08000358                RTC_Alarm_IRQHandler
+                0x08000358                EXTI2_IRQHandler
+                0x08000358                TIM1_CC_IRQHandler
+                0x08000358                PVD_IRQHandler
+                0x08000358                EXTI3_IRQHandler
+                0x08000358                EXTI0_IRQHandler
+                0x08000358                I2C2_EV_IRQHandler
+                0x08000358                ADC1_2_IRQHandler
+                0x08000358                SPI1_IRQHandler
+                0x08000358                TAMPER_IRQHandler
+                0x08000358                DMA1_Channel4_IRQHandler
+                0x08000358                USART3_IRQHandler
+                0x08000358                RTC_IRQHandler
+                0x08000358                DMA1_Channel7_IRQHandler
+                0x08000358                CAN1_RX1_IRQHandler
+                0x08000358                TIM4_IRQHandler
+                0x08000358                I2C1_EV_IRQHandler
+                0x08000358                DMA1_Channel6_IRQHandler
+                0x08000358                TIM3_IRQHandler
+                0x08000358                RCC_IRQHandler
+                0x08000358                TIM1_TRG_COM_IRQHandler
+                0x08000358                DMA1_Channel1_IRQHandler
+                0x08000358                Default_Handler
+                0x08000358                EXTI15_10_IRQHandler
+                0x08000358                EXTI9_5_IRQHandler
+                0x08000358                SPI2_IRQHandler
+                0x08000358                DMA1_Channel5_IRQHandler
+                0x08000358                EXTI4_IRQHandler
+                0x08000358                USB_LP_CAN1_RX0_IRQHandler
+                0x08000358                USB_HP_CAN1_TX_IRQHandler
+                0x08000358                DMA1_Channel3_IRQHandler
+                0x08000358                TIM1_UP_IRQHandler
+                0x08000358                WWDG_IRQHandler
+                0x08000358                TIM2_IRQHandler
+                0x08000358                TIM1_BRK_IRQHandler
+                0x08000358                EXTI1_IRQHandler
+                0x08000358                USART2_IRQHandler
+                0x08000358                I2C2_ER_IRQHandler
+                0x08000358                DMA1_Channel2_IRQHandler
+                0x08000358                CAN1_SCE_IRQHandler
+                0x08000358                FLASH_IRQHandler
+                0x08000358                USART1_IRQHandler
+                0x08000358                I2C1_ER_IRQHandler
+                0x08000358                USBWakeUp_IRQHandler
+ *fill*         0x0800035a        0x2 
+ .text.HAL_InitTick
+                0x0800035c       0x48 obj/stm32f1xx_hal.o
+                0x0800035c                HAL_InitTick
+ .text.HAL_Init
+                0x080003a4       0x24 obj/stm32f1xx_hal.o
+                0x080003a4                HAL_Init
+ .text.HAL_IncTick
+                0x080003c8       0x18 obj/stm32f1xx_hal.o
+                0x080003c8                HAL_IncTick
+ .text.HAL_GetTick
+                0x080003e0        0xc obj/stm32f1xx_hal.o
+                0x080003e0                HAL_GetTick
+ .text.HAL_Delay
+                0x080003ec       0x24 obj/stm32f1xx_hal.o
+                0x080003ec                HAL_Delay
+ .text.HAL_NVIC_SetPriorityGrouping
+                0x08000410       0x24 obj/stm32f1xx_hal_cortex.o
+                0x08000410                HAL_NVIC_SetPriorityGrouping
+ .text.HAL_NVIC_SetPriority
+                0x08000434       0x60 obj/stm32f1xx_hal_cortex.o
+                0x08000434                HAL_NVIC_SetPriority
+ .text.HAL_SYSTICK_Config
+                0x08000494       0x28 obj/stm32f1xx_hal_cortex.o
+                0x08000494                HAL_SYSTICK_Config
+ .text.HAL_GPIO_Init
+                0x080004bc      0x1a8 obj/stm32f1xx_hal_gpio.o
+                0x080004bc                HAL_GPIO_Init
+ .text.HAL_GPIO_TogglePin
+                0x08000664       0x12 obj/stm32f1xx_hal_gpio.o
+                0x08000664                HAL_GPIO_TogglePin
+ *fill*         0x08000676        0x2 
+ .text.HAL_RCC_OscConfig
+                0x08000678      0x338 obj/stm32f1xx_hal_rcc.o
+                0x08000678                HAL_RCC_OscConfig
+ .text.HAL_RCC_GetSysClockFreq
+                0x080009b0       0x4c obj/stm32f1xx_hal_rcc.o
+                0x080009b0                HAL_RCC_GetSysClockFreq
+ .text.HAL_RCC_ClockConfig
+                0x080009fc      0x138 obj/stm32f1xx_hal_rcc.o
+                0x080009fc                HAL_RCC_ClockConfig
+ *(.glue_7)
+ .glue_7        0x08000b34        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x08000b34        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x08000b34                        . = ALIGN (0x4)
+                0x08000b34                        _etext = .
+
+.vfp11_veneer   0x08000b34        0x0
+ .vfp11_veneer  0x08000b34        0x0 linker stubs
+
+.v4_bx          0x08000b34        0x0
+ .v4_bx         0x08000b34        0x0 linker stubs
+
+.iplt           0x08000b34        0x0
+ .iplt          0x08000b34        0x0 obj/main.o
+
+.rodata         0x08000b34       0x24
+                0x08000b34                        . = ALIGN (0x4)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.AHBPrescTable
+                0x08000b34       0x10 obj/system_stm32f1xx.o
+                0x08000b34                AHBPrescTable
+ .rodata.aPredivFactorTable.0
+                0x08000b44        0x2 obj/stm32f1xx_hal_rcc.o
+ .rodata.aPLLMULFactorTable.1
+                0x08000b46       0x10 obj/stm32f1xx_hal_rcc.o
+                0x08000b58                        . = ALIGN (0x4)
+ *fill*         0x08000b56        0x2 
+
+.rel.dyn        0x08000b58        0x0
+ .rel.iplt      0x08000b58        0x0 obj/main.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x08000b58        0x0
+                0x08000b58                        __exidx_start = .
+ *(.ARM.exidx*)
+                0x08000b58                        __exidx_end = .
+
+.preinit_array  0x08000b58        0x0
+                0x08000b58                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x08000b58                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x08000b58        0x0
+                0x08000b58                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+                0x08000b58                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x08000b58        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+                0x08000b58                        _sidata = LOADADDR (.data)
+
+.data           0x20000000        0xc load address 0x08000b58
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sdata = .
+ *(.data)
+ *(.data*)
+ .data.SystemCoreClock
+                0x20000000        0x4 obj/system_stm32f1xx.o
+                0x20000000                SystemCoreClock
+ .data.uwTickFreq
+                0x20000004        0x1 obj/stm32f1xx_hal.o
+                0x20000004                uwTickFreq
+ *fill*         0x20000005        0x3 
+ .data.uwTickPrio
+                0x20000008        0x4 obj/stm32f1xx_hal.o
+                0x20000008                uwTickPrio
+                0x2000000c                        . = ALIGN (0x4)
+                0x2000000c                        _edata = .
+
+.igot.plt       0x2000000c        0x0 load address 0x08000b64
+ .igot.plt      0x2000000c        0x0 obj/main.o
+                0x2000000c                        . = ALIGN (0x4)
+
+.bss            0x2000000c       0x14 load address 0x08000b64
+                0x2000000c                        _sbss = .
+                0x2000000c                        __bss_start__ = _sbss
+ *(.bss)
+ *(.bss*)
+ .bss.GPIO_InitStruct
+                0x2000000c       0x10 obj/main.o
+ .bss.uwTick    0x2000001c        0x4 obj/stm32f1xx_hal.o
+                0x2000001c                uwTick
+ *(COMMON)
+                0x20000020                        . = ALIGN (0x4)
+                0x20000020                        _ebss = .
+                0x20000020                        __bss_end__ = _ebss
+
+._user_heap_stack
+                0x20000020      0x600 load address 0x08000b64
+                0x20000020                        . = ALIGN (0x8)
+                [!provide]                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x20000220                        . = (. + _Min_Heap_Size)
+ *fill*         0x20000020      0x200 
+                0x20000620                        . = (. + _Min_Stack_Size)
+ *fill*         0x20000220      0x400 
+                0x20000620                        . = ALIGN (0x8)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x2b
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x2d obj/main.o
+ .ARM.attributes
+                0x0000002d       0x2d obj/stm32f1xx_hal_msp.o
+ .ARM.attributes
+                0x0000005a       0x2d obj/stm32f1xx_it.o
+ .ARM.attributes
+                0x00000087       0x2d obj/system_stm32f1xx.o
+ .ARM.attributes
+                0x000000b4       0x21 obj/startup_stm32f103xb.o
+ .ARM.attributes
+                0x000000d5       0x2d obj/stm32f1xx_hal.o
+ .ARM.attributes
+                0x00000102       0x2d obj/stm32f1xx_hal_cortex.o
+ .ARM.attributes
+                0x0000012f       0x2d obj/stm32f1xx_hal_gpio.o
+ .ARM.attributes
+                0x0000015c       0x2d obj/stm32f1xx_hal_rcc.o
+OUTPUT(out/test.elf elf32-littlearm)
+LOAD linker stubs
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libm.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/libgcc.a
+
+.comment        0x00000000       0x26
+ .comment       0x00000000       0x26 obj/main.o
+                                 0x27 (size before relaxing)
+ .comment       0x00000026       0x27 obj/stm32f1xx_hal_msp.o
+ .comment       0x00000026       0x27 obj/stm32f1xx_it.o
+ .comment       0x00000026       0x27 obj/system_stm32f1xx.o
+ .comment       0x00000026       0x27 obj/stm32f1xx_hal.o
+ .comment       0x00000026       0x27 obj/stm32f1xx_hal_cortex.o
+ .comment       0x00000026       0x27 obj/stm32f1xx_hal_gpio.o
+ .comment       0x00000026       0x27 obj/stm32f1xx_hal_rcc.o
+
+Cross Reference Table
+
+Symbol                                            File
+ADC1_2_IRQHandler                                 obj/startup_stm32f103xb.o
+AHBPrescTable                                     obj/system_stm32f1xx.o
+                                                  obj/stm32f1xx_ll_utils.o
+                                                  obj/stm32f1xx_hal_rcc.o
+APBPrescTable                                     obj/system_stm32f1xx.o
+                                                  obj/stm32f1xx_hal_rcc.o
+BusFault_Handler                                  obj/stm32f1xx_it.o
+CAN1_RX1_IRQHandler                               obj/startup_stm32f103xb.o
+CAN1_SCE_IRQHandler                               obj/startup_stm32f103xb.o
+DMA1_Channel1_IRQHandler                          obj/startup_stm32f103xb.o
+DMA1_Channel2_IRQHandler                          obj/startup_stm32f103xb.o
+DMA1_Channel3_IRQHandler                          obj/startup_stm32f103xb.o
+DMA1_Channel4_IRQHandler                          obj/startup_stm32f103xb.o
+DMA1_Channel5_IRQHandler                          obj/startup_stm32f103xb.o
+DMA1_Channel6_IRQHandler                          obj/startup_stm32f103xb.o
+DMA1_Channel7_IRQHandler                          obj/startup_stm32f103xb.o
+DebugMon_Handler                                  obj/stm32f1xx_it.o
+Default_Handler                                   obj/startup_stm32f103xb.o
+EXTI0_IRQHandler                                  obj/startup_stm32f103xb.o
+EXTI15_10_IRQHandler                              obj/startup_stm32f103xb.o
+EXTI1_IRQHandler                                  obj/startup_stm32f103xb.o
+EXTI2_IRQHandler                                  obj/startup_stm32f103xb.o
+EXTI3_IRQHandler                                  obj/startup_stm32f103xb.o
+EXTI4_IRQHandler                                  obj/startup_stm32f103xb.o
+EXTI9_5_IRQHandler                                obj/startup_stm32f103xb.o
+FLASH_IRQHandler                                  obj/startup_stm32f103xb.o
+FLASH_PageErase                                   obj/stm32f1xx_hal_flash_ex.o
+                                                  obj/stm32f1xx_hal_flash.o
+FLASH_WaitForLastOperation                        obj/stm32f1xx_hal_flash.o
+                                                  obj/stm32f1xx_hal_flash_ex.o
+HAL_DBGMCU_DisableDBGSleepMode                    obj/stm32f1xx_hal.o
+HAL_DBGMCU_DisableDBGStandbyMode                  obj/stm32f1xx_hal.o
+HAL_DBGMCU_DisableDBGStopMode                     obj/stm32f1xx_hal.o
+HAL_DBGMCU_EnableDBGSleepMode                     obj/stm32f1xx_hal.o
+HAL_DBGMCU_EnableDBGStandbyMode                   obj/stm32f1xx_hal.o
+HAL_DBGMCU_EnableDBGStopMode                      obj/stm32f1xx_hal.o
+HAL_DMA_Abort                                     obj/stm32f1xx_hal_dma.o
+                                                  obj/stm32f1xx_hal_uart.o
+HAL_DMA_Abort_IT                                  obj/stm32f1xx_hal_dma.o
+                                                  obj/stm32f1xx_hal_uart.o
+                                                  obj/stm32f1xx_hal_i2c.o
+HAL_DMA_DeInit                                    obj/stm32f1xx_hal_dma.o
+HAL_DMA_GetError                                  obj/stm32f1xx_hal_dma.o
+                                                  obj/stm32f1xx_hal_uart.o
+HAL_DMA_GetState                                  obj/stm32f1xx_hal_dma.o
+                                                  obj/stm32f1xx_hal_i2c.o
+HAL_DMA_IRQHandler                                obj/stm32f1xx_hal_dma.o
+HAL_DMA_Init                                      obj/stm32f1xx_hal_dma.o
+HAL_DMA_PollForTransfer                           obj/stm32f1xx_hal_dma.o
+HAL_DMA_RegisterCallback                          obj/stm32f1xx_hal_dma.o
+HAL_DMA_Start                                     obj/stm32f1xx_hal_dma.o
+HAL_DMA_Start_IT                                  obj/stm32f1xx_hal_dma.o
+                                                  obj/stm32f1xx_hal_uart.o
+                                                  obj/stm32f1xx_hal_i2c.o
+HAL_DMA_UnRegisterCallback                        obj/stm32f1xx_hal_dma.o
+HAL_DeInit                                        obj/stm32f1xx_hal.o
+HAL_Delay                                         obj/stm32f1xx_hal.o
+                                                  obj/main.o
+HAL_FLASHEx_Erase                                 obj/stm32f1xx_hal_flash_ex.o
+HAL_FLASHEx_Erase_IT                              obj/stm32f1xx_hal_flash_ex.o
+HAL_FLASHEx_OBErase                               obj/stm32f1xx_hal_flash_ex.o
+HAL_FLASHEx_OBGetConfig                           obj/stm32f1xx_hal_flash_ex.o
+HAL_FLASHEx_OBGetUserData                         obj/stm32f1xx_hal_flash_ex.o
+HAL_FLASHEx_OBProgram                             obj/stm32f1xx_hal_flash_ex.o
+HAL_FLASH_EndOfOperationCallback                  obj/stm32f1xx_hal_flash.o
+HAL_FLASH_GetError                                obj/stm32f1xx_hal_flash.o
+HAL_FLASH_IRQHandler                              obj/stm32f1xx_hal_flash.o
+HAL_FLASH_Lock                                    obj/stm32f1xx_hal_flash.o
+HAL_FLASH_OB_Launch                               obj/stm32f1xx_hal_flash.o
+HAL_FLASH_OB_Lock                                 obj/stm32f1xx_hal_flash.o
+HAL_FLASH_OB_Unlock                               obj/stm32f1xx_hal_flash.o
+HAL_FLASH_OperationErrorCallback                  obj/stm32f1xx_hal_flash.o
+HAL_FLASH_Program                                 obj/stm32f1xx_hal_flash.o
+HAL_FLASH_Program_IT                              obj/stm32f1xx_hal_flash.o
+HAL_FLASH_Unlock                                  obj/stm32f1xx_hal_flash.o
+HAL_GPIOEx_ConfigEventout                         obj/stm32f1xx_hal_gpio_ex.o
+HAL_GPIOEx_DisableEventout                        obj/stm32f1xx_hal_gpio_ex.o
+HAL_GPIOEx_EnableEventout                         obj/stm32f1xx_hal_gpio_ex.o
+HAL_GPIO_DeInit                                   obj/stm32f1xx_hal_gpio.o
+HAL_GPIO_EXTI_Callback                            obj/stm32f1xx_hal_gpio.o
+HAL_GPIO_EXTI_IRQHandler                          obj/stm32f1xx_hal_gpio.o
+HAL_GPIO_Init                                     obj/stm32f1xx_hal_gpio.o
+                                                  obj/stm32f1xx_hal_rcc.o
+                                                  obj/main.o
+HAL_GPIO_LockPin                                  obj/stm32f1xx_hal_gpio.o
+HAL_GPIO_ReadPin                                  obj/stm32f1xx_hal_gpio.o
+HAL_GPIO_TogglePin                                obj/stm32f1xx_hal_gpio.o
+                                                  obj/main.o
+HAL_GPIO_WritePin                                 obj/stm32f1xx_hal_gpio.o
+HAL_GetDEVID                                      obj/stm32f1xx_hal.o
+HAL_GetHalVersion                                 obj/stm32f1xx_hal.o
+HAL_GetREVID                                      obj/stm32f1xx_hal.o
+HAL_GetTick                                       obj/stm32f1xx_hal.o
+                                                  obj/stm32f1xx_hal_uart.o
+                                                  obj/stm32f1xx_hal_rcc_ex.o
+                                                  obj/stm32f1xx_hal_rcc.o
+                                                  obj/stm32f1xx_hal_i2c.o
+                                                  obj/stm32f1xx_hal_flash.o
+                                                  obj/stm32f1xx_hal_dma.o
+HAL_GetTickFreq                                   obj/stm32f1xx_hal.o
+HAL_GetTickPrio                                   obj/stm32f1xx_hal.o
+HAL_GetUIDw0                                      obj/stm32f1xx_hal.o
+HAL_GetUIDw1                                      obj/stm32f1xx_hal.o
+HAL_GetUIDw2                                      obj/stm32f1xx_hal.o
+HAL_HalfDuplex_EnableReceiver                     obj/stm32f1xx_hal_uart.o
+HAL_HalfDuplex_EnableTransmitter                  obj/stm32f1xx_hal_uart.o
+HAL_HalfDuplex_Init                               obj/stm32f1xx_hal_uart.o
+HAL_I2C_AbortCpltCallback                         obj/stm32f1xx_hal_i2c.o
+HAL_I2C_AddrCallback                              obj/stm32f1xx_hal_i2c.o
+HAL_I2C_DeInit                                    obj/stm32f1xx_hal_i2c.o
+HAL_I2C_DisableListen_IT                          obj/stm32f1xx_hal_i2c.o
+HAL_I2C_ER_IRQHandler                             obj/stm32f1xx_hal_i2c.o
+HAL_I2C_EV_IRQHandler                             obj/stm32f1xx_hal_i2c.o
+HAL_I2C_EnableListen_IT                           obj/stm32f1xx_hal_i2c.o
+HAL_I2C_ErrorCallback                             obj/stm32f1xx_hal_i2c.o
+HAL_I2C_GetError                                  obj/stm32f1xx_hal_i2c.o
+HAL_I2C_GetMode                                   obj/stm32f1xx_hal_i2c.o
+HAL_I2C_GetState                                  obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Init                                      obj/stm32f1xx_hal_i2c.o
+HAL_I2C_IsDeviceReady                             obj/stm32f1xx_hal_i2c.o
+HAL_I2C_ListenCpltCallback                        obj/stm32f1xx_hal_i2c.o
+HAL_I2C_MasterRxCpltCallback                      obj/stm32f1xx_hal_i2c.o
+HAL_I2C_MasterTxCpltCallback                      obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Master_Abort_IT                           obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Master_Receive                            obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Master_Receive_DMA                        obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Master_Receive_IT                         obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Master_Seq_Receive_DMA                    obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Master_Seq_Receive_IT                     obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Master_Seq_Transmit_DMA                   obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Master_Seq_Transmit_IT                    obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Master_Transmit                           obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Master_Transmit_DMA                       obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Master_Transmit_IT                        obj/stm32f1xx_hal_i2c.o
+HAL_I2C_MemRxCpltCallback                         obj/stm32f1xx_hal_i2c.o
+HAL_I2C_MemTxCpltCallback                         obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Mem_Read                                  obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Mem_Read_DMA                              obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Mem_Read_IT                               obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Mem_Write                                 obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Mem_Write_DMA                             obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Mem_Write_IT                              obj/stm32f1xx_hal_i2c.o
+HAL_I2C_MspDeInit                                 obj/stm32f1xx_hal_i2c.o
+HAL_I2C_MspInit                                   obj/stm32f1xx_hal_i2c.o
+HAL_I2C_SlaveRxCpltCallback                       obj/stm32f1xx_hal_i2c.o
+HAL_I2C_SlaveTxCpltCallback                       obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Slave_Receive                             obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Slave_Receive_DMA                         obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Slave_Receive_IT                          obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Slave_Seq_Receive_DMA                     obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Slave_Seq_Receive_IT                      obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Slave_Seq_Transmit_DMA                    obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Slave_Seq_Transmit_IT                     obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Slave_Transmit                            obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Slave_Transmit_DMA                        obj/stm32f1xx_hal_i2c.o
+HAL_I2C_Slave_Transmit_IT                         obj/stm32f1xx_hal_i2c.o
+HAL_IncTick                                       obj/stm32f1xx_hal.o
+                                                  obj/stm32f1xx_it.o
+HAL_Init                                          obj/stm32f1xx_hal.o
+                                                  obj/main.o
+HAL_InitTick                                      obj/stm32f1xx_hal.o
+                                                  obj/stm32f1xx_hal_rcc.o
+HAL_LIN_Init                                      obj/stm32f1xx_hal_uart.o
+HAL_LIN_SendBreak                                 obj/stm32f1xx_hal_uart.o
+HAL_MspDeInit                                     obj/stm32f1xx_hal.o
+HAL_MspInit                                       obj/stm32f1xx_hal_msp.o
+HAL_MultiProcessor_EnterMuteMode                  obj/stm32f1xx_hal_uart.o
+HAL_MultiProcessor_ExitMuteMode                   obj/stm32f1xx_hal_uart.o
+HAL_MultiProcessor_Init                           obj/stm32f1xx_hal_uart.o
+HAL_NVIC_ClearPendingIRQ                          obj/stm32f1xx_hal_cortex.o
+HAL_NVIC_DisableIRQ                               obj/stm32f1xx_hal_cortex.o
+HAL_NVIC_EnableIRQ                                obj/stm32f1xx_hal_cortex.o
+HAL_NVIC_GetActive                                obj/stm32f1xx_hal_cortex.o
+HAL_NVIC_GetPendingIRQ                            obj/stm32f1xx_hal_cortex.o
+HAL_NVIC_GetPriority                              obj/stm32f1xx_hal_cortex.o
+HAL_NVIC_GetPriorityGrouping                      obj/stm32f1xx_hal_cortex.o
+HAL_NVIC_SetPendingIRQ                            obj/stm32f1xx_hal_cortex.o
+HAL_NVIC_SetPriority                              obj/stm32f1xx_hal_cortex.o
+                                                  obj/stm32f1xx_hal.o
+HAL_NVIC_SetPriorityGrouping                      obj/stm32f1xx_hal_cortex.o
+                                                  obj/stm32f1xx_hal.o
+HAL_NVIC_SystemReset                              obj/stm32f1xx_hal_cortex.o
+                                                  obj/stm32f1xx_hal_flash.o
+HAL_RCCEx_GetPeriphCLKConfig                      obj/stm32f1xx_hal_rcc_ex.o
+HAL_RCCEx_GetPeriphCLKFreq                        obj/stm32f1xx_hal_rcc_ex.o
+HAL_RCCEx_PeriphCLKConfig                         obj/stm32f1xx_hal_rcc_ex.o
+HAL_RCC_CSSCallback                               obj/stm32f1xx_hal_rcc.o
+HAL_RCC_ClockConfig                               obj/stm32f1xx_hal_rcc.o
+                                                  obj/main.o
+HAL_RCC_DeInit                                    obj/stm32f1xx_hal_rcc.o
+HAL_RCC_DisableCSS                                obj/stm32f1xx_hal_rcc.o
+HAL_RCC_EnableCSS                                 obj/stm32f1xx_hal_rcc.o
+HAL_RCC_GetClockConfig                            obj/stm32f1xx_hal_rcc.o
+HAL_RCC_GetHCLKFreq                               obj/stm32f1xx_hal_rcc.o
+HAL_RCC_GetOscConfig                              obj/stm32f1xx_hal_rcc.o
+HAL_RCC_GetPCLK1Freq                              obj/stm32f1xx_hal_rcc.o
+                                                  obj/stm32f1xx_hal_uart.o
+                                                  obj/stm32f1xx_hal_i2c.o
+HAL_RCC_GetPCLK2Freq                              obj/stm32f1xx_hal_rcc.o
+                                                  obj/stm32f1xx_hal_uart.o
+                                                  obj/stm32f1xx_hal_rcc_ex.o
+HAL_RCC_GetSysClockFreq                           obj/stm32f1xx_hal_rcc.o
+HAL_RCC_MCOConfig                                 obj/stm32f1xx_hal_rcc.o
+HAL_RCC_NMI_IRQHandler                            obj/stm32f1xx_hal_rcc.o
+HAL_RCC_OscConfig                                 obj/stm32f1xx_hal_rcc.o
+                                                  obj/main.o
+HAL_ResumeTick                                    obj/stm32f1xx_hal.o
+HAL_SYSTICK_CLKSourceConfig                       obj/stm32f1xx_hal_cortex.o
+HAL_SYSTICK_Callback                              obj/stm32f1xx_hal_cortex.o
+HAL_SYSTICK_Config                                obj/stm32f1xx_hal_cortex.o
+                                                  obj/stm32f1xx_hal.o
+HAL_SYSTICK_IRQHandler                            obj/stm32f1xx_hal_cortex.o
+HAL_SetTickFreq                                   obj/stm32f1xx_hal.o
+HAL_SuspendTick                                   obj/stm32f1xx_hal.o
+HAL_UARTEx_GetRxEventType                         obj/stm32f1xx_hal_uart.o
+HAL_UARTEx_ReceiveToIdle                          obj/stm32f1xx_hal_uart.o
+HAL_UARTEx_ReceiveToIdle_DMA                      obj/stm32f1xx_hal_uart.o
+HAL_UARTEx_ReceiveToIdle_IT                       obj/stm32f1xx_hal_uart.o
+HAL_UARTEx_RxEventCallback                        obj/stm32f1xx_hal_uart.o
+HAL_UART_Abort                                    obj/stm32f1xx_hal_uart.o
+HAL_UART_AbortCpltCallback                        obj/stm32f1xx_hal_uart.o
+HAL_UART_AbortReceive                             obj/stm32f1xx_hal_uart.o
+HAL_UART_AbortReceiveCpltCallback                 obj/stm32f1xx_hal_uart.o
+HAL_UART_AbortReceive_IT                          obj/stm32f1xx_hal_uart.o
+HAL_UART_AbortTransmit                            obj/stm32f1xx_hal_uart.o
+HAL_UART_AbortTransmitCpltCallback                obj/stm32f1xx_hal_uart.o
+HAL_UART_AbortTransmit_IT                         obj/stm32f1xx_hal_uart.o
+HAL_UART_Abort_IT                                 obj/stm32f1xx_hal_uart.o
+HAL_UART_DMAPause                                 obj/stm32f1xx_hal_uart.o
+HAL_UART_DMAResume                                obj/stm32f1xx_hal_uart.o
+HAL_UART_DMAStop                                  obj/stm32f1xx_hal_uart.o
+HAL_UART_DeInit                                   obj/stm32f1xx_hal_uart.o
+HAL_UART_ErrorCallback                            obj/stm32f1xx_hal_uart.o
+HAL_UART_GetError                                 obj/stm32f1xx_hal_uart.o
+HAL_UART_GetState                                 obj/stm32f1xx_hal_uart.o
+HAL_UART_IRQHandler                               obj/stm32f1xx_hal_uart.o
+HAL_UART_Init                                     obj/stm32f1xx_hal_uart.o
+HAL_UART_MspDeInit                                obj/stm32f1xx_hal_uart.o
+HAL_UART_MspInit                                  obj/stm32f1xx_hal_msp.o
+HAL_UART_Receive                                  obj/stm32f1xx_hal_uart.o
+HAL_UART_Receive_DMA                              obj/stm32f1xx_hal_uart.o
+HAL_UART_Receive_IT                               obj/stm32f1xx_hal_uart.o
+HAL_UART_RxCpltCallback                           obj/stm32f1xx_hal_uart.o
+HAL_UART_RxHalfCpltCallback                       obj/stm32f1xx_hal_uart.o
+HAL_UART_Transmit                                 obj/stm32f1xx_hal_uart.o
+HAL_UART_Transmit_DMA                             obj/stm32f1xx_hal_uart.o
+HAL_UART_Transmit_IT                              obj/stm32f1xx_hal_uart.o
+HAL_UART_TxCpltCallback                           obj/stm32f1xx_hal_uart.o
+HAL_UART_TxHalfCpltCallback                       obj/stm32f1xx_hal_uart.o
+HardFault_Handler                                 obj/stm32f1xx_it.o
+I2C1_ER_IRQHandler                                obj/startup_stm32f103xb.o
+I2C1_EV_IRQHandler                                obj/startup_stm32f103xb.o
+I2C2_ER_IRQHandler                                obj/startup_stm32f103xb.o
+I2C2_EV_IRQHandler                                obj/startup_stm32f103xb.o
+LL_Init1msTick                                    obj/stm32f1xx_ll_utils.o
+LL_PLL_ConfigSystemClock_HSE                      obj/stm32f1xx_ll_utils.o
+LL_PLL_ConfigSystemClock_HSI                      obj/stm32f1xx_ll_utils.o
+LL_SetFlashLatency                                obj/stm32f1xx_ll_utils.o
+LL_SetSystemCoreClock                             obj/stm32f1xx_ll_utils.o
+LL_mDelay                                         obj/stm32f1xx_ll_utils.o
+MemManage_Handler                                 obj/stm32f1xx_it.o
+NMI_Handler                                       obj/stm32f1xx_it.o
+PVD_IRQHandler                                    obj/startup_stm32f103xb.o
+PendSV_Handler                                    obj/stm32f1xx_it.o
+RCC_IRQHandler                                    obj/startup_stm32f103xb.o
+RTC_Alarm_IRQHandler                              obj/startup_stm32f103xb.o
+RTC_IRQHandler                                    obj/startup_stm32f103xb.o
+Reset_Handler                                     obj/startup_stm32f103xb.o
+SPI1_IRQHandler                                   obj/startup_stm32f103xb.o
+SPI2_IRQHandler                                   obj/startup_stm32f103xb.o
+SVC_Handler                                       obj/stm32f1xx_it.o
+SysTick_Handler                                   obj/stm32f1xx_it.o
+SystemClock_Config                                obj/main.o
+SystemCoreClock                                   obj/system_stm32f1xx.o
+                                                  obj/stm32f1xx_ll_utils.o
+                                                  obj/stm32f1xx_hal_rcc.o
+                                                  obj/stm32f1xx_hal_i2c.o
+                                                  obj/stm32f1xx_hal.o
+SystemCoreClockUpdate                             obj/system_stm32f1xx.o
+SystemInit                                        obj/system_stm32f1xx.o
+                                                  obj/startup_stm32f103xb.o
+TAMPER_IRQHandler                                 obj/startup_stm32f103xb.o
+TIM1_BRK_IRQHandler                               obj/startup_stm32f103xb.o
+TIM1_CC_IRQHandler                                obj/startup_stm32f103xb.o
+TIM1_TRG_COM_IRQHandler                           obj/startup_stm32f103xb.o
+TIM1_UP_IRQHandler                                obj/startup_stm32f103xb.o
+TIM2_IRQHandler                                   obj/startup_stm32f103xb.o
+TIM3_IRQHandler                                   obj/startup_stm32f103xb.o
+TIM4_IRQHandler                                   obj/startup_stm32f103xb.o
+UART_Start_Receive_DMA                            obj/stm32f1xx_hal_uart.o
+UART_Start_Receive_IT                             obj/stm32f1xx_hal_uart.o
+USART1_IRQHandler                                 obj/startup_stm32f103xb.o
+USART2_IRQHandler                                 obj/startup_stm32f103xb.o
+USART3_IRQHandler                                 obj/startup_stm32f103xb.o
+USBWakeUp_IRQHandler                              obj/startup_stm32f103xb.o
+USB_HP_CAN1_TX_IRQHandler                         obj/startup_stm32f103xb.o
+USB_LP_CAN1_RX0_IRQHandler                        obj/startup_stm32f103xb.o
+UsageFault_Handler                                obj/stm32f1xx_it.o
+WWDG_IRQHandler                                   obj/startup_stm32f103xb.o
+__init_array_end                                  /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-init.o)
+__init_array_start                                /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-init.o)
+__libc_init_array                                 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-init.o)
+                                                  obj/startup_stm32f103xb.o
+__preinit_array_end                               /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-init.o)
+__preinit_array_start                             /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-init.o)
+_ebss                                             obj/startup_stm32f103xb.o
+_edata                                            obj/startup_stm32f103xb.o
+_estack                                           obj/startup_stm32f103xb.o
+_init                                             obj/main.o
+                                                  /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-init.o)
+_sbss                                             obj/startup_stm32f103xb.o
+_sdata                                            obj/startup_stm32f103xb.o
+_sidata                                           obj/startup_stm32f103xb.o
+g_pfnVectors                                      obj/startup_stm32f103xb.o
+main                                              obj/main.o
+                                                  obj/startup_stm32f103xb.o
+memset                                            /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-memset.o)
+                                                  obj/main.o
+pFlash                                            obj/stm32f1xx_hal_flash.o
+                                                  obj/stm32f1xx_hal_flash_ex.o
+uwTick                                            obj/stm32f1xx_hal.o
+uwTickFreq                                        obj/stm32f1xx_hal.o
+uwTickPrio                                        obj/stm32f1xx_hal.o
+                                                  obj/stm32f1xx_hal_rcc.o

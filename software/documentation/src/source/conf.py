@@ -54,7 +54,7 @@ html_theme = 'sphinx_book_theme'
 html_logo = "_static/logo.svg"
 
 html_static_path = ['_static']
-latex_logo = "_static/logo.svg"
+latex_logo = "_static/logo.png" 
 html_css_files = [
     'custom.css',
 ]
