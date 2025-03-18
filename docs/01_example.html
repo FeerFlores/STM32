@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>How to Generate an Error Report &#8212; STM32 Getting Started 0.0.1 documentation</title>
+    <title>Using OpenOCD &#8212; STM32 Getting Started 0.0.1 documentation</title>
   
   
   
@@ -52,10 +52,11 @@
     <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'report';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '01_example';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="STM32 microcontrollers" href="02_stm32.html" />
+    <link rel="next" title="STM32 microcontrollers" href="02_stm32.html" />
+    <link rel="prev" title="OpenOCD and PyOCD Overview" href="00_openocd.html" />
     <link rel="icon" href="_static/icon.svg" type="image/x-icon">
     <link rel="shortcut icon" href="_static/icon.svg" type="image/x-icon">
 
@@ -169,9 +170,9 @@
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Contents</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="00_openocd.html">OpenOCD and PyOCD Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="01_example.html">Using OpenOCD</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Using OpenOCD</a></li>
 <li class="toctree-l1"><a class="reference internal" href="02_stm32.html">STM32 microcontrollers</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">How to Generate an Error Report</a></li>
+<li class="toctree-l1"><a class="reference internal" href="report.html">How to Generate an Error Report</a></li>
 </ul>
 
     </div>
@@ -243,7 +244,7 @@
       
       
       
-      <li><a href="https://github.com/Cesarbautista10/STM32/edit/main/docs/report.rst" target="_blank"
+      <li><a href="https://github.com/Cesarbautista10/STM32/edit/main/docs/01_example.rst" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -260,7 +261,7 @@
       
       
       
-      <li><a href="https://github.com/Cesarbautista10/STM32/issues/new?title=Issue%20on%20page%20%2Freport.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/Cesarbautista10/STM32/issues/new?title=Issue%20on%20page%20%2F01_example.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -290,7 +291,7 @@
       
       
       
-      <li><a href="_sources/report.rst" target="_blank"
+      <li><a href="_sources/01_example.rst" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -374,7 +375,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>How to Generate an Error Report</h1>
+    <h1>Using OpenOCD</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -384,8 +385,8 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#steps-to-create-an-error-report">Steps to Create an Error Report</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#review-and-follow-up">Review and Follow-Up</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#supported-microcontrollers">Supported Microcontrollers</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#selecting-your-microcontroller-target">Selecting Your Microcontroller Target</a></li>
 </ul>
             </nav>
         </div>
@@ -397,47 +398,68 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="how-to-generate-an-error-report">
-<h1>How to Generate an Error Report<a class="headerlink" href="#how-to-generate-an-error-report" title="Link to this heading">#</a></h1>
-<p>This guide explains how to generate an error report using GitHub repositories.</p>
-<section id="steps-to-create-an-error-report">
-<h2>Steps to Create an Error Report<a class="headerlink" href="#steps-to-create-an-error-report" title="Link to this heading">#</a></h2>
-<ol class="arabic simple">
-<li><dl class="simple">
-<dt><strong>Access the GitHub Repository</strong></dt><dd><p>Navigate to the <a class="reference external" href="https://github.com/UNIT-Electronics/UNIT_NANO_C6">GitHub repository</a> where the project is hosted.</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt><strong>Open the Issues Tab</strong></dt><dd><p>Click on the “Issues” tab located in the repository menu.</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt><strong>Create a New Issue</strong></dt><dd><ul class="simple">
-<li><p>Click the “New Issue” button.</p></li>
-<li><p>Provide a clear and concise title for the issue.</p></li>
-<li><p>Add a detailed description, including relevant information such as:</p>
-<ul>
-<li><p>Steps to reproduce the error.</p></li>
-<li><p>Expected and actual results.</p></li>
-<li><p>Any related logs, screenshots, or files.</p></li>
-</ul>
-</li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt><strong>Submit the Issue</strong></dt><dd><p>Once the form is complete, click the “Submit” button.</p>
-</dd>
-</dl>
-</li>
-</ol>
+  <section id="using-openocd">
+<h1>Using OpenOCD<a class="headerlink" href="#using-openocd" title="Link to this heading">#</a></h1>
+<p>To program your microcontroller using OpenOCD, use the following command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>openocd<span class="w"> </span>-f<span class="w"> </span>interface/cmsis-dap.cfg<span class="w"> </span>-f<span class="w"> </span>target/rp2040.cfg<span class="w"> </span><span class="se">\</span>
+<span class="w">        </span>-c<span class="w"> </span><span class="s2">&quot;init&quot;</span><span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;reset init&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">        </span>-c<span class="w"> </span><span class="s2">&quot;flash write_image erase blink.bin 0x10000000&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">        </span>-c<span class="w"> </span><span class="s2">&quot;reset run&quot;</span><span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;shutdown&quot;</span>
+</pre></div>
+</div>
+<section id="supported-microcontrollers">
+<h2>Supported Microcontrollers<a class="headerlink" href="#supported-microcontrollers" title="Link to this heading">#</a></h2>
+<p>This guide supports the following microcontrollers:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<colgroup>
+<col style="width: 20.0%" />
+<col style="width: 80.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Microcontroller</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>RP2040</p></td>
+<td><p>Low-cost microcontroller with a dual-core ARM Cortex-M0+ processor.</p></td>
+</tr>
+<tr class="row-odd"><td><p>STM32F103C8T6</p></td>
+<td><p>Budget-friendly microcontroller with an ARM Cortex-M3 processor.</p></td>
+</tr>
+<tr class="row-even"><td><p>STM32F411</p></td>
+<td><p>Cost-effective microcontroller with an ARM Cortex-M4 processor.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
-<section id="review-and-follow-up">
-<h2>Review and Follow-Up<a class="headerlink" href="#review-and-follow-up" title="Link to this heading">#</a></h2>
-<p>The development team or maintainers will review the issue and take appropriate action to address it.</p>
+<section id="selecting-your-microcontroller-target">
+<h2>Selecting Your Microcontroller Target<a class="headerlink" href="#selecting-your-microcontroller-target" title="Link to this heading">#</a></h2>
+<p>Each microcontroller requires a specific configuration file. This file is a script that instructs OpenOCD on how to communicate with the microcontroller. The configuration file is tailored to the microcontroller and the debugger interface.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<colgroup>
+<col style="width: 30.0%" />
+<col style="width: 70.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Microcontroller</p></th>
+<th class="head"><p>Configuration File</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>RP2040</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">rp2040.cfg</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>STM32F103C8T6</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">stm32f103c8t6.cfg</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p>STM32F411</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">stm32f411.cfg</span></code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
 </section>
 
@@ -453,13 +475,22 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="02_stm32.html"
+       href="00_openocd.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">OpenOCD and PyOCD Overview</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="02_stm32.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
         <p class="prev-next-title">STM32 microcontrollers</p>
       </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
@@ -477,8 +508,8 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#steps-to-create-an-error-report">Steps to Create an Error Report</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#review-and-follow-up">Review and Follow-Up</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#supported-microcontrollers">Supported Microcontrollers</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#selecting-your-microcontroller-target">Selecting Your Microcontroller Target</a></li>
 </ul>
   </nav></div>
 

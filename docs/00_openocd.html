@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>OpenOCD Overview &#8212; STM32 Getting Started 0.0.1 documentation</title>
+    <title>OpenOCD and PyOCD Overview &#8212; STM32 Getting Started 0.0.1 documentation</title>
   
   
   
@@ -55,7 +55,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = '00_openocd';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="STM32 microcontrollers" href="01_about.html" />
+    <link rel="next" title="Using OpenOCD" href="01_example.html" />
     <link rel="prev" title="ARM Cortex-M Getting Started Documentation" href="index.html" />
     <link rel="icon" href="_static/icon.svg" type="image/x-icon">
     <link rel="shortcut icon" href="_static/icon.svg" type="image/x-icon">
@@ -169,8 +169,9 @@
     <div class="bd-toc-item navbar-nav active">
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Contents</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">OpenOCD Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="01_about.html">STM32 microcontrollers</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">OpenOCD and PyOCD Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="01_example.html">Using OpenOCD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02_stm32.html">STM32 microcontrollers</a></li>
 <li class="toctree-l1"><a class="reference internal" href="report.html">How to Generate an Error Report</a></li>
 </ul>
 
@@ -374,7 +375,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>OpenOCD Overview</h1>
+    <h1>OpenOCD and PyOCD Overview</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -384,10 +385,17 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#arm-cortex-m-debug-interface">ARM Cortex-M Debug Interface</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cmsis-dap-debug-adapter">CMSIS-DAP Debug Adapter</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#swdio-and-swclk-signals">SWDIO and SWCLK Signals</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#openocd-open-on-chip-debugger">OpenOCD (Open On-Chip Debugger)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pyocd-a-python-interface-to-openocd">PyOCD: A Python Interface to OpenOCD</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#arm-cortex-m-debug-capabilities">ARM Cortex-M Debug Capabilities</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#debugging-interface-of-arm-cortex-m">Debugging Interface of ARM Cortex-M</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#connection-through-debug-pins">Connection Through Debug Pins</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cmsis-dap-a-standardized-debug-adapter">CMSIS-DAP: A Standardized Debug Adapter</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview-of-cmsis-dap">Overview of CMSIS-DAP</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#swd-communication-protocols">SWD Communication Protocols</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#signals-and-operations">Signals and Operations</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#advantages-of-swd-over-jtag">Advantages of SWD Over JTAG</a></li>
 </ul>
             </nav>
         </div>
@@ -399,26 +407,68 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="openocd-overview">
-<h1>OpenOCD Overview<a class="headerlink" href="#openocd-overview" title="Link to this heading">#</a></h1>
-<section id="overview">
-<h2>Overview<a class="headerlink" href="#overview" title="Link to this heading">#</a></h2>
-<p>OpenOCD (Open On-Chip Debugger) is an open-source software tool that provides debugging, in-system programming, and boundary-scan testing for embedded devices. It supports a wide range of microcontrollers, including STM32, RP2040, and PY32. OpenOCD communicates with the target device through a debug interface, such as JTAG or SWD, and provides a command-line interface for interacting with the device.</p>
+  <section id="openocd-and-pyocd-overview">
+<h1>OpenOCD and PyOCD Overview<a class="headerlink" href="#openocd-and-pyocd-overview" title="Link to this heading">#</a></h1>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h2>
 </section>
-<section id="arm-cortex-m-debug-interface">
-<h2>ARM Cortex-M Debug Interface<a class="headerlink" href="#arm-cortex-m-debug-interface" title="Link to this heading">#</a></h2>
-<p>The ARM Cortex-M architecture includes a debug interface that allows external tools to access the core for debugging and programming purposes. The debug interface consists of a set of registers and commands that enable the debugger to halt the core, read and write memory, and control the execution of the program.</p>
-<p>The debug interface is accessed through a set of pins on the microcontroller, such as SWDIO, SWCLK, and nRESET. These pins are connected to a debug adapter, such as a ST-Link or CMSIS-DAP, which provides the physical connection between the host computer and the target device.</p>
+<section id="openocd-open-on-chip-debugger">
+<h2>OpenOCD (Open On-Chip Debugger)<a class="headerlink" href="#openocd-open-on-chip-debugger" title="Link to this heading">#</a></h2>
+<p>OpenOCD is an open-source software tool that facilitates debugging, in-system programming, and boundary-scan testing of embedded devices. It supports a diverse range of microcontrollers including STM32, RP2040, and PY32. Through interfaces such as JTAG or SWD, OpenOCD provides a command-line interface for effective interaction with the target devices.</p>
 </section>
-<section id="cmsis-dap-debug-adapter">
-<h2>CMSIS-DAP Debug Adapter<a class="headerlink" href="#cmsis-dap-debug-adapter" title="Link to this heading">#</a></h2>
-<p>CMSIS-DAP (Cortex Microcontroller Software Interface Standard - Debug Access Port) is a debug adapter that provides a standardized interface for debugging ARM Cortex-M devices. It is supported by OpenOCD and provides a low-cost alternative to commercial debug adapters.</p>
+<section id="pyocd-a-python-interface-to-openocd">
+<h2>PyOCD: A Python Interface to OpenOCD<a class="headerlink" href="#pyocd-a-python-interface-to-openocd" title="Link to this heading">#</a></h2>
+<p>PyOCD simplifies the use of OpenOCD by providing a Python-based high-level interface. It offers a Python API that abstracts the complexities of the OpenOCD command-line interface, making it easier to program and debug microcontrollers. PyOCD is user-friendly, flexible, and designed to be extensible for various microcontroller interactions.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<colgroup>
+<col style="width: 30.0%" />
+<col style="width: 70.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Tool</strong></p></th>
+<th class="head"><p><strong>Functionality</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>OpenOCD</p></td>
+<td><p>Provides a command-line interface for debugging and programming microcontrollers.</p></td>
+</tr>
+<tr class="row-odd"><td><p>PyOCD</p></td>
+<td><p>Offers a Python API for seamless interaction with microcontrollers via OpenOCD.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="arm-cortex-m-debug-capabilities">
+<h2>ARM Cortex-M Debug Capabilities<a class="headerlink" href="#arm-cortex-m-debug-capabilities" title="Link to this heading">#</a></h2>
+</section>
+<section id="debugging-interface-of-arm-cortex-m">
+<h2>Debugging Interface of ARM Cortex-M<a class="headerlink" href="#debugging-interface-of-arm-cortex-m" title="Link to this heading">#</a></h2>
+<p>The ARM Cortex-M architecture includes a comprehensive debug interface that allows external tools to access the microcontroller core for debugging and programming tasks. This interface includes a suite of registers and commands that empower debuggers to halt the core, access memory, and manage the execution of programs.</p>
+</section>
+<section id="connection-through-debug-pins">
+<h2>Connection Through Debug Pins<a class="headerlink" href="#connection-through-debug-pins" title="Link to this heading">#</a></h2>
+<p>Access to the debug interface is facilitated through specific pins on the microcontroller, such as SWDIO, SWCLK, and nRESET. These are linked to a debug adapter like the ST-Link or CMSIS-DAP, which forms the physical bridge between the host computer and the target device.</p>
+</section>
+<section id="cmsis-dap-a-standardized-debug-adapter">
+<h2>CMSIS-DAP: A Standardized Debug Adapter<a class="headerlink" href="#cmsis-dap-a-standardized-debug-adapter" title="Link to this heading">#</a></h2>
+</section>
+<section id="overview-of-cmsis-dap">
+<h2>Overview of CMSIS-DAP<a class="headerlink" href="#overview-of-cmsis-dap" title="Link to this heading">#</a></h2>
+<p>CMSIS-DAP (Cortex Microcontroller Software Interface Standard - Debug Access Port) serves as a standardized debug adapter for ARM Cortex-M devices. It is endorsed by OpenOCD and provides a cost-effective solution compared to proprietary debug adapters.</p>
 <img alt="CMSIS-DAP Debug Adapter" class="align-center" src="https://raw.githubusercontent.com/ARM-software/CMSIS-DAP/main/Documentation/Doxygen/src/images/CMSIS_DAP_INTERFACE.png" />
 </section>
-<section id="swdio-and-swclk-signals">
-<h2>SWDIO and SWCLK Signals<a class="headerlink" href="#swdio-and-swclk-signals" title="Link to this heading">#</a></h2>
-<p>The SWDIO (Serial Wire Debug Input/Output) and SWCLK (Serial Wire Clock) signals are used to communicate with the target device over the SWD interface. SWDIO is a bidirectional data line that carries debug commands and data between the host and the target device. SWCLK is a unidirectional clock signal that synchronizes the data transfer between the host and the target device.</p>
-<p>The SWD interface uses a two-wire connection between the host and the target device, which reduces the pin count compared to the JTAG interface. This makes it suitable for devices with limited pin availability, such as microcontrollers.</p>
+<section id="swd-communication-protocols">
+<h2>SWD Communication Protocols<a class="headerlink" href="#swd-communication-protocols" title="Link to this heading">#</a></h2>
+</section>
+<section id="signals-and-operations">
+<h2>Signals and Operations<a class="headerlink" href="#signals-and-operations" title="Link to this heading">#</a></h2>
+<p>The SWDIO (Serial Wire Debug Input/Output) and SWCLK (Serial Wire Clock) signals are integral for communication over the SWD interface. SWDIO is a bidirectional line used for transmitting debug commands and data, while SWCLK is a clock signal that ensures synchronized data transfer between the host and the target.</p>
+</section>
+<section id="advantages-of-swd-over-jtag">
+<h2>Advantages of SWD Over JTAG<a class="headerlink" href="#advantages-of-swd-over-jtag" title="Link to this heading">#</a></h2>
+<p>Utilizing a two-wire connection, the SWD interface minimizes the pin count required compared to the traditional JTAG interface. This reduction is particularly beneficial for microcontrollers where pin availability is limited.</p>
 </section>
 </section>
 
@@ -443,11 +493,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="01_about.html"
+       href="01_example.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">STM32 microcontrollers</p>
+        <p class="prev-next-title">Using OpenOCD</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -467,10 +517,17 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#arm-cortex-m-debug-interface">ARM Cortex-M Debug Interface</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cmsis-dap-debug-adapter">CMSIS-DAP Debug Adapter</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#swdio-and-swclk-signals">SWDIO and SWCLK Signals</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#openocd-open-on-chip-debugger">OpenOCD (Open On-Chip Debugger)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pyocd-a-python-interface-to-openocd">PyOCD: A Python Interface to OpenOCD</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#arm-cortex-m-debug-capabilities">ARM Cortex-M Debug Capabilities</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#debugging-interface-of-arm-cortex-m">Debugging Interface of ARM Cortex-M</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#connection-through-debug-pins">Connection Through Debug Pins</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cmsis-dap-a-standardized-debug-adapter">CMSIS-DAP: A Standardized Debug Adapter</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview-of-cmsis-dap">Overview of CMSIS-DAP</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#swd-communication-protocols">SWD Communication Protocols</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#signals-and-operations">Signals and Operations</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#advantages-of-swd-over-jtag">Advantages of SWD Over JTAG</a></li>
 </ul>
   </nav></div>
 
