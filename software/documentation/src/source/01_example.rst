@@ -30,7 +30,7 @@ This guide supports the following microcontrollers:
 
 
 Selecting Your Microcontroller Target
---------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Each microcontroller requires a specific configuration file. This file is a script that instructs OpenOCD on how to communicate with the microcontroller. The configuration file is tailored to the microcontroller and the debugger interface.
 
@@ -48,7 +48,7 @@ Each microcontroller requires a specific configuration file. This file is a scri
       - ``stm32f411.cfg``
 
  
- PyOCD
+PyOCD
 =====
 
 .. code-block:: bash
