@@ -22,4 +22,4 @@ This guide assumes you have basic knowledge of embedded systems and C programmin
 
 
 > Happy coding!
-> main
+
